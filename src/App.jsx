@@ -231,7 +231,7 @@ function Home() {
                 {/* <br /> */}
                 {/* <span> Selamat Hari Raya Idul Fitri</span> */}
                 Minal Aidin Wal Faizin, Mohon Maaf Lahir dan Batin. 
-                <span> Selamat Hari Raya Idul Fitri 🙏</span>
+                <span> Selamat Merayakan Hari Raya Idul Fitri 1446 H 🙏</span>
               </p>
             </div>
           </div>
