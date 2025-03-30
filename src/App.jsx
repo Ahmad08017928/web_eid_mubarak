@@ -221,15 +221,17 @@ function Home() {
               </div>
 
               {/* Timer */}
-              <div className="bg-emerald-700/70 rounded-3xl p-6 md:p-8 text-4xl font-bold tracking-widest shadow-lg border border-emerald-600/30 md:text-6xl text-white mb-2 text-center">
+              <div className="flex justify-center bg-emerald-700/70 rounded-3xl p-6 md:p-8 text-4xl font-bold tracking-widest shadow-lg border border-emerald-600/30 md:text-6xl text-white mb-2 text-center">
                 {String(timeLeft.hours).padStart(2, '0')}:{String(timeLeft.minutes).padStart(2, '0')}:{String(timeLeft.seconds).padStart(2, '0')}
               </div>
 
               {/* Ucapan */}
               <p className="text-center mt-4 text-emerald-100 text-lg">
-                Taqabbalallahu Minna Wa Minkum,
+                {/* Taqabbalallahu Minna Wa Minkum, */}
                 {/* <br /> */}
-                <span> Selamat Hari Raya Idul Fitri</span>
+                {/* <span> Selamat Hari Raya Idul Fitri</span> */}
+                Minal Aidin Wal Faizin, Mohon Maaf Lahir dan Batin. 
+                <span> Selamat Hari Raya Idul Fitri 🙏</span>
               </p>
             </div>
           </div>
@@ -252,7 +254,7 @@ function Home() {
                 />
               </flex>
               <flex className='flex-1'>
-                <label htmlFor="date" className='block text-sm text-emerald-200 mb-1'>Tanggal</label>
+                <label htmlFor="date" for="date" className='block text-sm text-emerald-200 mb-1'>Tanggal</label>
                  <input
                   // ref={inputRef}
                   type="date"
